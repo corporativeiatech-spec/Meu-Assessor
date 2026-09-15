@@ -1,0 +1,21 @@
+MEU ASSESSOR — app instalável (PWA)
+
+O que tem nesta pasta:
+  index.html ............ o app inteiro (funciona offline)
+  manifest.webmanifest .. nome, ícone e cores do app
+  sw.js ................. cache offline
+  icon-*.png ............ ícones da tela inicial
+
+COMO INSTALAR NO CELULAR
+1. Publique esta pasta em qualquer link HTTPS gratuito:
+   - Netlify Drop (app.netlify.com/drop): arraste a pasta, ganha um link na hora.
+   - GitHub Pages, Vercel ou Cloudflare Pages também servem.
+   IMPORTANTE: precisa ser https:// — o modo app não funciona abrindo o arquivo direto.
+2. Abra o link no celular.
+3. Android (Chrome): menu ⋮ > "Instalar app" / "Adicionar à tela inicial".
+   iPhone (Safari): botão Compartilhar > "Adicionar à Tela de Início".
+4. O ícone aparece na tela inicial e abre em tela cheia, sem barra do navegador.
+
+DADOS
+Tudo que você lança (saldo, gastos, despesas, dívida, lista) fica salvo no
+próprio aparelho. Fecha e abre, continua lá. Limpar os dados do site apaga.
